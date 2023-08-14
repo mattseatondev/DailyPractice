@@ -14,6 +14,8 @@ const romanize = roman => {
     roman.forEach((r, rIndex) => {
         if (rIndex == roman.length - 1) {
             num += findNum(r);
+        } else if (r == roman[rIndex + 1]) {
+            
         }
         // if (r == roman[rIndex + 1])
     });
